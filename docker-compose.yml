@@ -4,9 +4,9 @@
 version: '3.3'
 
 services:
-  syslogger:
-    image: syslogger
-    container_name: syslogger
+  mqtt2syslogger:
+    image: mqtt2syslogger
+    container_name: mqtt2syslogger
     volumes:
       - ./parameter:/parameter
     restart: always
