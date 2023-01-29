@@ -25,6 +25,6 @@ log:
 
 `docker-compose logs -f`
 
-DevSec:
+DevSec: (vor FortiDevSec owner only)
 
 `docker run --rm --mount type=bind,source="$PWD",target=/scan registry.fortidevsec.forticloud.com/fdevsec_sast:latest `
