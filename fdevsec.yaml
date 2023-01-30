@@ -1,0 +1,16 @@
+version: v1
+
+id:
+  org: 1f5d0eec-d336-4e5d-af1a-cc7818a2887b
+  app: 9c10d703-536e-4d65-8199-8d2701e05f78
+
+scanners:
+  - sast
+  - secret
+  - sca
+  - iac 
+  - container
+
+languages:
+  - python
+
