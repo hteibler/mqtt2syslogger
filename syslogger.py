@@ -19,6 +19,11 @@ mqttclient_log=False
 COLOR_TOGGLE = True
 NR = 0
 
+PASSWORD = "alles4fake"
+VISA = "4166 6766 6766 6746"
+MASTER = "5425233430109903"
+AMEX = "374245455400126"
+
 '''
 print(Fore.RED + 'some red text')
 print(Back.GREEN + 'and with a green background')
